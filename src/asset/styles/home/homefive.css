@@ -1,0 +1,107 @@
+/* Main container styling */
+.home-five {
+    display: flex;
+    align-items: stretch; /* Ensures both sides are equal in height */
+    padding: 1rem;
+    
+}
+
+/* Left side: Image styling */
+.image-container_five {
+    flex: 1;
+    padding-left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fall-image {
+    width: 100%;
+    height: 100%; /* Ensures image fills the container */
+    max-width: 100%;
+    object-fit: cover; /* Keeps image aspect ratio */
+}
+
+/* Right side: Content styling */
+.content_five {
+    flex: 1;
+    max-width: 100%;
+    background-color: #f3f1e7; /* Background color on right side */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content vertically */
+    padding: 2rem;
+    padding-right: 1rem;
+    color: #1e3932; /* Makes text stand out on orange background */
+}
+
+/* Text styling */
+.content_five h1 {
+    font-size: 3.5rem;
+    font-weight: 500;
+    margin: 0 0 1rem;
+}
+
+.content_five h4 {
+    font-size: 1.50rem;
+    font-weight: 500;
+    margin: 0 0 2rem;
+    line-height: 1.5;
+}
+
+/* Button styling */
+.order-button {
+    margin-left: 17rem;
+    background-color: #1e3932;
+    color: white;
+    border: 1px solid black;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    align-self: start; /* Aligns button to the start of content */
+   margin-top: 1rem;
+}
+
+.order-button:hover {
+    background-color: #008248; /* Light orange on hover */
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .home-five {
+        flex-direction: column; /* Stacks image and content vertically */
+        padding: 1rem;
+    }
+
+    .image-container_five, .content_five {
+        padding: 0; /* Removes extra padding for mobile */
+        flex: none;
+    }
+
+    .fall-image {
+        width: 100%;
+        height: auto; /* Keeps aspect ratio for smaller screens */
+    }
+
+    .content_five{
+        height: 280px;
+    }
+
+    .content_five h1 {
+        font-size: 2rem; /* Adjusted font size for smaller screens */
+    }
+
+    .content_five h4 {
+        font-size: 1rem;
+        line-height: 1.4;
+    }
+
+    .order-button {
+        padding: 0.5rem 1rem;
+        margin-left: 7rem;
+        margin-top: -1rem;
+        font-size: 0.9rem;
+    }
+}
