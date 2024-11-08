@@ -1,0 +1,74 @@
+.featurethird-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0 20px;
+  }
+  
+  .featurethird-section {
+    width: 48%;
+    text-align: center;
+  }
+  
+  .featurethird-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .featurethird-content {
+    background-color: #1e3932;
+    color: white;
+    padding: 20px;
+    margin-top: -4px;
+  }
+  
+.featurethird-content h4{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+  .feature_third_order-button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #1e3932;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 20px;
+  }
+  
+  .feature_third_order-button:hover {
+    background-color: darkolivegreen;
+  }
+  
+  /* Responsive Styles for Mobile */
+@media (max-width: 768px) {
+    .featurethird-container {
+      flex-direction: column; /* Column layout on smaller screens */
+      padding: 0 10px;
+    }
+  
+    .featurethird-section {
+      width: 100%; /* Full width on mobile */
+      margin-bottom: 20px; /* Space between sections */
+    }
+  
+    .featurethird-image {
+      width: 100%;
+      height: auto; /* Adjust image size for mobile */
+    }
+  
+    .featurethird-content {
+      padding: 15px; /* Slightly less padding on mobile */
+    }
+  
+    .featurethird-content h4 {
+      font-size: 16px; /* Smaller font size for mobile */
+    }
+  
+    .feature_third_order-button {
+      padding: 8px 16px; /* Adjust button size for mobile */
+      font-size: 14px; /* Smaller button font */
+    }
+  }
