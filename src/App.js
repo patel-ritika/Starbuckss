@@ -6,6 +6,7 @@ import Home from './components/Home';
 import Menu from './components/Menu';
 import Feature from './components/Feature';
 import Previous from './components/Previous';
+import Favorite from './components/Favorite';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
   <Route path="/menu" element={<Menu />} />
   <Route path="/featured" element={<Feature />} />
   <Route path="/previous" element={<Previous />} />
+  <Route path="/favorites" element={<Favorite />} />
 </Routes>
 
 <Footer/>
