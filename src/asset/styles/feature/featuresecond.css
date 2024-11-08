@@ -1,0 +1,91 @@
+.feature-second-container {
+    display: flex;
+    align-items: stretch; /* Ensure image and content have the same height */
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .feature-second-text {
+    width: 50%;
+    background-color: #4DA768; /* Light green background */
+    padding: 20px;
+    color: #1e3932;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .feature-second-text h2 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  .feature-second-text h4 {
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 10px 0;
+    line-height: 1.5;
+  }
+  
+  .feature-second-button {
+    margin-left: 17rem;
+    width: 150px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #4DA768;
+    color: #1e3932;
+    border: 1px solid black;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+  
+  .feature-second-button:hover {
+    background-color: lightgreen;
+  }
+  
+  .feature-second-image {
+    width: 50%;
+    object-fit: cover; /* Maintain image aspect ratio */
+  }
+  
+  @media (max-width: 768px) {
+    .feature-second-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .feature-second-text,
+    .feature-second-image {
+      width: 100%;
+    }
+  
+.feature-second-text{
+  width: 90%;
+}
+
+.feature-second-image{
+  width: 103%;
+}
+
+    .feature-second-text h2 {
+      font-size: 1.5rem;
+    }
+  
+    .feature-second-text h4 {
+      font-size: 0.9rem;
+    }
+  
+    .feature-second-button {
+      margin-top: 20px;
+      margin-left: 5rem;
+    }
+  
+    .feature-second-image {
+      margin-top: -1.3rem;
+      max-height: 300px; /* Limit image height on smaller screens */
+    }
+  }
