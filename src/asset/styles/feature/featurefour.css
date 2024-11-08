@@ -1,0 +1,75 @@
+.featurefour-container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0 20px;
+  }
+  
+  .featurefour-section {
+    width: 48%;
+    text-align: center;
+  }
+  
+  .featurefour-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .featurefour-content {
+    background-color: #D71426;
+    color: white;
+    padding: 20px;
+    margin-top: -4px;
+  }
+  
+.featurefour-content h4{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+  .feature_four_order-button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #D71426;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 20px;
+  }
+  
+  .feature_four_order-button:hover {
+    background-color: red;
+  }
+  
+  /* Responsive Styles for Mobile */
+@media (max-width: 768px) {
+    .featurefour-container {
+      flex-direction: column; /* Column layout on smaller screens */
+      padding: 0 10px;
+    }
+  
+    .featurefour-section {
+      width: 100%; /* Full width on mobile */
+      margin-bottom: 20px; /* Space between sections */
+    }
+  
+    .featurefour-image {
+      width: 100%;
+      height: auto; /* Adjust image size for mobile */
+    }
+  
+    .featurefour-content {
+      padding: 15px; /* Slightly less padding on mobile */
+    }
+  
+    .featurefour-content h4 {
+      font-size: 16px; /* Smaller font size for mobile */
+    }
+  
+    .feature_four_order-button {
+      padding: 8px 16px; /* Adjust button size for mobile */
+      font-size: 14px; /* Smaller button font */
+    }
+  }
