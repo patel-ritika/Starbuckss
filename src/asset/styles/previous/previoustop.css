@@ -1,0 +1,108 @@
+.previous-top-container {
+    margin-left: 5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+    padding: 20px;
+  }
+  
+  .previous-top-title {
+    margin-bottom: 10px;
+  }
+  
+  .previous-top-image {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+  
+  .previous-top-heading {
+    font-weight: 400;
+    margin-bottom: 15px;
+  }
+
+  .previous-top-paragraph {
+    font-size: 17px;
+    color: gray;
+    margin-bottom: 20px;
+  }
+  
+  .previous-top-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .previous-top-button {
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+  }
+  
+  /* First button (Sign in) styles */
+.previous-top-button:first-child {
+    background-color: white;
+    border: 1px solid #ccc; /* Optional: Add a border for better visibility */
+  }
+  
+  .previous-top-button:first-child:hover {
+    background-color: lightgray;
+  }
+  
+  /* Second button (Join now) styles */
+  .previous-top-button:last-child {
+    background-color: black;
+    color: white;
+  }
+  
+  .previous-top-button:last-child:hover {
+    background-color: darkgray;
+  }
+
+  /* Horizontal line at the bottom */
+.previous-top-line {
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+  }
+
+  /* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+    .previous-top-container {
+      margin-left: 0; /* Remove left margin on mobile */
+      padding: 10px;
+    }
+  
+    .previous-top-title {
+      font-size: 1.2rem; /* Smaller font for mobile */
+    }
+  
+    .previous-top-image {
+      max-width: 100%; /* Full width image on mobile */
+    }
+  
+    .previous-top-heading {
+      font-size: 1.5rem; /* Slightly smaller heading font for mobile */
+    }
+  
+    .previous-top-paragraph {
+      font-size: 15px; /* Adjust paragraph font for mobile */
+    }
+  
+    .previous-top-buttons {
+      flex-direction: row; /* Stack buttons vertically on mobile */
+      width: 90%; /* Full width for buttons */
+      gap: 10px; /* Reduced gap for stacked buttons */
+      justify-content: space-between;
+    }
+  
+    .previous-top-button {
+        flex: 1;
+      padding: 10px; /* Adjust padding for mobile */
+    }
+  }
