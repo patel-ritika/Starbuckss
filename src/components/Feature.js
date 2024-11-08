@@ -4,6 +4,7 @@ import FeatureSecond from './feature/FeatureSecond';
 import FeatureThird from './feature/FeatureThird';
 import FeatureFour from './feature/FeatureFour';
 import FeatureFive from './feature/FeatureFive';
+import FeatureSix from './feature/FeatureSix';
 
 const Feature = () => {
   return (
@@ -13,6 +14,7 @@ const Feature = () => {
       <FeatureThird/>
       <FeatureFour/>
       <FeatureFive/>
+      <FeatureSix/>
     </div>
   );
 }

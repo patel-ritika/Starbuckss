@@ -1,74 +1,75 @@
-.featurethird-container {
+.featuresix-container {
+    margin-top: 2rem;
     display: flex;
     justify-content: space-between;
     gap: 20px;
     padding: 0 20px;
   }
   
-  .featurethird-section {
+  .featuresix-section {
     width: 48%;
     text-align: center;
   }
   
-  .featurethird-image {
+  .featuresix-image {
     width: 100%;
     height: auto;
   }
   
-  .featurethird-content {
-    background-color: #1e3932;
-    color: white;
+  .featuresix-content {
+    background-color: #4DA768;
+    color: #1e3932;
     padding: 20px;
     margin-top: -4px;
   }
   
-.featurethird-content h4{
+.featuresix-content h4{
     font-weight: 400;
     font-size: 20px;
 }
 
-  .feature_third_order-button {
+  .feature_six_order-button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #1e3932;
-    color: white;
-    border: 1px solid white;
+    background-color: #4DA768;
+    color: #1e3932;
+    border: 1px solid black;
     cursor: pointer;
     font-weight: bold;
     border-radius: 20px;
     font-size: 1rem;
   }
   
-  .feature_third_order-button:hover {
-    background-color: darkolivegreen;
+  .feature_six_order-button:hover {
+    background-color: lightgreen;
   }
   
   /* Responsive Styles for Mobile */
 @media (max-width: 768px) {
-    .featurethird-container {
+    .featuresix-container {
       flex-direction: column; /* Column layout on smaller screens */
       padding: 0 10px;
     }
   
-    .featurethird-section {
+    .featuresix-section {
       width: 100%; /* Full width on mobile */
       margin-bottom: 20px; /* Space between sections */
     }
   
-    .featurethird-image {
+    .featuresix-image {
       width: 100%;
       height: auto; /* Adjust image size for mobile */
     }
   
-    .featurethird-content {
+    .featuresix-content {
       padding: 15px; /* Slightly less padding on mobile */
     }
   
-    .featurethird-content h4 {
+    .featuresix-content h4 {
       font-size: 16px; /* Smaller font size for mobile */
     }
   
-    .feature_third_order-button {
+    .feature_six_order-button {
       padding: 8px 16px; /* Adjust button size for mobile */
       font-size: 14px; /* Smaller button font */
     }
