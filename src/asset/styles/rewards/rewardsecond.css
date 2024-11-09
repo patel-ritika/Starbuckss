@@ -1,0 +1,94 @@
+.reward-second {
+    text-align: center;
+    margin: 20px;
+    margin-top: 10rem;
+  }
+
+  .reward-second h1{
+    font-weight: 500;
+  }
+
+  .reward-second h5{
+    font-size: 18px;
+    font-weight: 500;
+    color: gray;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .section {
+    width: 30%;
+    text-align: center;
+  }
+  
+  .round {
+    width: 40px;
+    height: 40px;
+    color: #1e3932;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border:  1px solid #1e3932;
+    margin: 0 auto 10px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+.section h3{
+    font-weight: 500;
+}
+
+.section p span{
+   color: #008248;
+   text-decoration: underline;
+   font-weight: 500;
+   cursor: pointer;
+}
+
+.section p span:hover{
+    text-decoration: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .row {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .section {
+      width: 90%;
+      margin-bottom: 20px;
+    }
+  
+    .reward-second h1 {
+      font-size: 24px;
+    }
+  
+    .reward-second h5 {
+      font-size: 16px;
+    }
+  
+    .round {
+      width: 30px;
+      height: 30px;
+      font-size: 16px;
+    }
+  
+    .section h3 {
+      font-size: 20px;
+    }
+  
+    .section p {
+      font-size: 14px;
+    }
+
+    .reward-second{
+        margin-top: -1rem;
+    }
+  }
