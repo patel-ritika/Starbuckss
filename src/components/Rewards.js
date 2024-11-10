@@ -3,6 +3,7 @@ import RewardTop from './rewards/RewardTop';
 import RewardSecond from './rewards/RewardSecond';
 import RewardThird from './rewards/RewardThird';
 import RewardEnd from './rewards/RewardEnd';
+import RewardCash from './rewards/RewardCash';
 
 const Rewards = () => {
   return (
@@ -11,6 +12,7 @@ const Rewards = () => {
       <RewardSecond/>
       <RewardThird/>
       <RewardEnd/>
+      <RewardCash/>
     </div>
   );
 }

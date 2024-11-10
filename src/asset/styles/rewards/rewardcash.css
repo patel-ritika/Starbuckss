@@ -1,0 +1,152 @@
+.reward-cash-container {
+    background-color: #f3f1e7;
+    padding: 20px;
+    margin-top: 10rem;
+  }
+  
+  .main-heading {
+    text-align: center;
+    font-size: 2em;
+  }
+  
+  .description {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.1em;
+  }
+  
+  .dollar-part {
+    margin-top: 45px;
+  }
+  
+  .dollarpart1, .dollarpart2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .dollar-info {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .dollar-info h1 {
+    font-weight: 500;
+    padding-left: 4rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+  }
+  
+  .star-icon {
+    font-size: 0.8em; /* Adjusts the size of the star icon */
+    margin-left: 5px;
+  }
+
+  .dollar-info h4 {
+    padding-right: 15rem;
+    margin-top: 5px;
+    color: #666;
+  }
+  
+  .image-info {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .image-info img {
+    width: 100px;
+    height: 80px;
+    margin-right: 15px;
+  }
+  
+  .text-content h4 {
+    text-align: left;
+    font-weight: 500;
+    font-size: 1.2em;
+    margin: 0;
+  }
+  
+  .text-content p {
+    text-align: left;
+    font-size: 1em;
+    color: #666;
+  }
+  
+  .horizontal-line {
+    margin: 20px 0;
+    border: 0.5px solid #ccc;
+  }
+  
+  /* Responsive styling for mobile screens */
+@media (max-width: 768px) {
+    .reward-cash-container {
+      padding: 10px;
+      margin-top: 5rem;
+    }
+  
+    .main-heading {
+      font-size: 1.5em;
+    }
+  
+    .description {
+      font-size: 1em;
+    }
+  
+    .dollarpart1, .dollarpart2 {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .dollar-info {
+      padding-left: 0;
+      margin-right: 0;
+    }
+  
+    .dollar-info h1 {
+      font-size: 1.2em;
+    }
+  
+    .dollar-info h4 {
+        padding-left: 4rem;
+      padding-right: 0;
+      margin-top: 0.5rem;
+    }
+  
+    .image-info {
+      display: flex;
+      align-items: flex-start;
+      margin-right: 0;
+      margin-top: 15px;
+    }
+  
+    .image-info img {
+      width: 85px;
+      height: 60px;
+      margin-right: 10px;
+    }
+  
+    .text-content h4 {
+      font-size: 1em;
+    }
+  
+    .text-content p {
+      font-size: 0.9em;
+    }
+  
+    /* Align elements in the desired order */
+    .dollarpart1, .dollarpart2 {
+      text-align: left;
+      margin-top: 1.5rem;
+    }
+  
+    /* Space between images and content */
+    .image-info, .text-content {
+      width: 100%;
+    }
+  }
+  
