@@ -1,0 +1,105 @@
+/* Remove horizontal scrollbar in mobile view */
+body, .reward-keep-container {
+    overflow-x: hidden;
+  }
+
+.reward-keep-container {
+    background-color: #d4e9e2;
+    padding: 20px;
+    border: 35px solid #1e3932;
+    max-width: 1410px; /* Laptop size ke liye */
+    margin: 2rem auto;
+  }
+  
+  .heading {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+  
+  .intro-text {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .keep-parts {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+.keep-parts p{
+    text-align: left;
+}
+
+  .keeppart1, .keeppart2, .keeppart3 {
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .image_keep {
+    width: 100%;
+    max-width: 250px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .join-button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .join-button {
+    width: 250px;
+    margin-right: 20rem;
+    background-color: #008248;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .join-button:hover {
+    background-color: #163026;
+  }
+
+  /* Mobile Responsive Styles */
+@media (max-width: 768px) {
+    .reward-keep-container {
+      padding: 10px;
+    }
+  
+    .keep-parts {
+      display: block;
+    }
+  
+    .keeppart1, .keeppart2, .keeppart3 {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      width: 100%;
+      margin-bottom: 15px;
+    }
+  
+    .keeppart1 .image_keep, .keeppart2 .image_keep, .keeppart3 .image_keep {
+      max-width: 80px; /* Mobile size ke liye small image */
+      margin-right: 10px;
+    }
+  
+    .join-button-container {
+      text-align: center;
+      margin-top: 20px;
+      margin-left: -4.5rem;
+    }
+
+    .heading {
+      font-size: 1.5em;
+    }
+    
+    .intro-text {
+      font-size: 1em;
+    }
+  }
