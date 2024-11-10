@@ -1,0 +1,148 @@
+/* Container styling */
+.rewardend-container {
+    margin-top: 5rem;
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Heading styling */
+.rewardend-heading {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Subheading paragraph styling */
+.rewardend-subheading {
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 20px;
+}
+
+/* Sections styling */
+.rewardend-sections {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+/* Each section styling */
+.rewardend-section {
+    width: 30%;
+    text-align: center;
+}
+
+/* Image styling */
+.rewardend-image {
+    cursor: pointer;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; /* Makes the image round */
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.rewanded-fun{
+    font-size: 17px;
+}
+
+/* Paragraph styling */
+.rewardend-paragraph {
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 10px;
+}
+
+/* Learn more link styling */
+.rewardend-learnmore {
+    font-size: 1rem;
+    color: green;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: text-decoration 0.3s;
+}
+
+.rewardend-learnmore:hover {
+    text-decoration: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .rewardend-sections {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rewardend-section {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .rewardend-image {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .rewardend-sections {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rewardend-section {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .rewardend-image {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/* Mobile-specific adjustments */
+@media (max-width: 480px) {
+    /* Adjust container padding and margins */
+    .rewardend-container {
+        padding: 10px;
+        margin-top: 2rem;
+    }
+
+    /* Smaller heading font size */
+    .rewardend-heading {
+        font-size: 1.5rem;
+    }
+
+    /* Smaller subheading font size */
+    .rewardend-subheading {
+        font-size: 0.9rem;
+    }
+
+    /* Full-width sections */
+    .rewardend-section {
+        width: 100%;
+    }
+
+    /* Smaller image size for mobile */
+    .rewardend-image {
+        width: 80px;
+        height: 80px;
+    }
+
+    /* Adjust font sizes for smaller screens */
+    .rewanded-fun {
+        font-size: 15px;
+    }
+
+    .rewardend-paragraph {
+        font-size: 0.9rem;
+    }
+
+    .rewardend-learnmore {
+        font-size: 0.9rem;
+    }
+}
