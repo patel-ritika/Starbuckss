@@ -1,0 +1,60 @@
+.reward-question {
+    padding: 20px;
+  }
+  
+  .centered-title {
+    font-weight: 500;
+    text-align: center;
+  }
+  
+  .question_sub-heading {
+    text-align: center;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .offwhite-background {
+    text-align: left;
+    font-size: 15px;
+    background-color: #f5f5f5;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .question_left-section, .question_right-section {
+    text-align: left;
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+  }
+  
+.question_right-section{
+    padding-left: 3rem;
+}
+
+  .question_left-section h5, .question_right-section h5 {
+    margin-top: 20px;
+    color: gray;
+  }
+  
+  .divider {
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 480px) {
+    .centered-title {
+      font-size: 1.2em;
+    }
+  
+    .question_sub-heading {
+      font-size: 0.9em;
+    }
+  
+    .offwhite-background,
+    .question_left-section,
+    .question_right-section {
+      font-size: 13px;
+      padding: 8px;
+    }
+  }

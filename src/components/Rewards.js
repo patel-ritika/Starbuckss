@@ -5,6 +5,7 @@ import RewardThird from './rewards/RewardThird';
 import RewardEnd from './rewards/RewardEnd';
 import RewardCash from './rewards/RewardCash';
 import RewardKeep from './rewards/RewardKeep';
+import RewardQuestion from './rewards/RewardQuestion';
 
 const Rewards = () => {
   return (
@@ -15,6 +16,7 @@ const Rewards = () => {
       <RewardEnd/>
       <RewardCash/>
       <RewardKeep/>
+      <RewardQuestion/>
     </div>
   );
 }

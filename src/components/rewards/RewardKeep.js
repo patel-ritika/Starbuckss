@@ -33,8 +33,8 @@ const RewardKeep = () => {
       </div>
     </div>
 
-    <div className="join-button-container">
-        <button className="join-button">Join Starbucks Rewards</button>
+    <div className="keep_join-button-container">
+        <button className="keep_join-button">Join Starbucks Rewards</button>
       </div>
     </div>
   );

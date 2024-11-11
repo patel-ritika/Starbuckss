@@ -45,12 +45,12 @@ body, .reward-keep-container {
     margin-bottom: 10px;
   }
   
-  .join-button-container {
+  .keep_join-button-container {
     text-align: center;
     margin-top: 20px;
   }
   
-  .join-button {
+  .keep_join-button {
     width: 250px;
     margin-right: 20rem;
     background-color: #008248;
@@ -62,7 +62,7 @@ body, .reward-keep-container {
     cursor: pointer;
   }
   
-  .join-button:hover {
+  .keep_join-button:hover {
     background-color: #163026;
   }
 
@@ -89,10 +89,10 @@ body, .reward-keep-container {
       margin-right: 10px;
     }
   
-    .join-button-container {
+    .keep_join-button-container {
       text-align: center;
       margin-top: 20px;
-      margin-left: -4.5rem;
+      margin-left: 1rem;
     }
 
     .heading {
