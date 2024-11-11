@@ -8,6 +8,7 @@ import Feature from './components/Feature';
 import Previous from './components/Previous';
 import Favorite from './components/Favorite';
 import Rewards from './components/Rewards';
+import Gift from './components/Gift';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
   <Route path="/previous" element={<Previous />} />
   <Route path="/favorites" element={<Favorite />} />
   <Route path="/rewards" element={<Rewards />} />
+  <Route path="/gift-cards" element={<Gift />} />
 </Routes>
 
 <Footer/>
