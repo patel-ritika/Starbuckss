@@ -1,0 +1,124 @@
+.gift-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .gift-offwhite-section {
+    margin-top: 5rem;
+    background-color: #f5f5f5; /* Off-white color */
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .gift-image {
+    width: 100px; /* Adjust size as needed */
+    margin-right: 10px;
+  }
+  
+  .gift-text {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .gift-green-section {
+    height: 100px;
+    background-color: #d4e9e2; /* Light green color */
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .gift-green-section h3 {
+    margin-right: 15px;
+    color: #333;
+  }
+  
+  .gift-green-section h4 {
+    margin-right: 15px;
+    color: gray;
+    display: flex;
+    align-items: center;
+  }
+  
+  .gift-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .btn {
+    padding: 10px 15px;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .add-reload {
+    background-color: #d4e9e2; /* Same as off-white section */
+    color: black;
+  }
+  
+  .add-reload:hover {
+    background-color: lightgray;
+  }
+  
+  .check-balance {
+    background-color: black;
+    color: white;
+  }
+  
+  .check-balance:hover {
+    background-color: darkgray;
+  }
+  
+  .gift-terms {
+    color: green;
+    margin-left: auto;
+  }
+  
+  /* Responsive adjustments for mobile view */
+@media (max-width: 768px) {
+    .gift-offwhite-section {
+      flex-direction: column; /* Stack image and text vertically */
+      text-align: center;
+    }
+  
+    .gift-image {
+      margin-right: 0;
+      margin-bottom: 10px;
+      width: 80px; /* Smaller image on mobile */
+    }
+  
+    .gift-text {
+      font-size: 14px;
+    }
+  
+    .gift-green-section {
+      flex-direction: column; /* Stack elements vertically */
+      text-align: center;
+      height: auto;
+    }
+  
+    .gift-green-section h3,
+    .gift-green-section h4 {
+      margin: 5px 0;
+    }
+  
+    .gift-buttons {
+      flex-direction: row; /* Keeps buttons side by side */
+      justify-content: center;
+      width: 100%; /* Centers buttons on mobile */
+      gap: 5px;
+    }
+  
+    .btn {
+      padding: 8px 10px;
+      font-size: 12px; /* Smaller button text */
+    }
+  
+    .gift-terms {
+      margin: 10px auto 0;
+      text-align: center;
+    }
+  }
