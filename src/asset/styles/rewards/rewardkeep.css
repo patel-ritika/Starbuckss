@@ -53,6 +53,7 @@ body, .reward-keep-container {
   .keep_join-button {
     width: 250px;
     margin-right: 20rem;
+    margin-left: 15rem;
     background-color: #008248;
     color: #fff;
     padding: 10px 20px;
@@ -94,6 +95,10 @@ body, .reward-keep-container {
       margin-top: 20px;
       margin-left: 1rem;
     }
+
+.keep_join-button{
+  margin-left: 1rem;
+}
 
     .heading {
       font-size: 1.5em;
