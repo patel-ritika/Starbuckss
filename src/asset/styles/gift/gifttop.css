@@ -48,6 +48,7 @@
   }
   
   .imageRow img {
+    cursor: pointer;
     width: calc(25% - 5px);
     height: auto;
     max-width: 300px;
