@@ -1,0 +1,56 @@
+.gift-photo-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .photo_section-title {
+    padding-left: 5rem;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .photo_image-row {
+    display: flex;
+    gap: 15px; /* Space between images */
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .photo_image-row img {
+    width: 280px; /* Adjust width for desired size */
+    height: 200px; /* Adjust height for desired size */
+    object-fit: cover; /* To maintain image aspect ratio within the set size */
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .photo_image-row img:hover {
+    transform: translateY(-10px); /* Moves the image 10px upwards on hover */
+}  
+
+@media (max-width: 480px) {
+  .photo_image-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      overflow-x: scroll;
+      scroll-snap-type: x mandatory;
+  }
+
+  .photo_image-row img {
+      width: 100%; /* Full width within the grid */
+      height: auto;
+      scroll-snap-align: center;
+  }
+
+  /* Optional: styling for smoother scrolling */
+  .photo_image-row {
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none; /* Hide scrollbar on Firefox */
+  }
+  .photo_image-row::-webkit-scrollbar {
+      display: none; /* Hide scrollbar on Chrome */
+  }
+}
