@@ -3,6 +3,7 @@ import GiftTop from './gift/GiftTop';
 import GiftSecond from './gift/GiftSecond';
 import GiftPhoto from './gift/GiftPhoto';
 import GiftBusiness from './gift/GiftBusiness';
+import GiftQuestion from './gift/GiftQuestion';
 
 const Gift = () => {
   return (
@@ -11,6 +12,7 @@ const Gift = () => {
       <GiftSecond/>
       <GiftPhoto/>
       <GiftBusiness/>
+      <GiftQuestion/>
     </div>
   );
 }
